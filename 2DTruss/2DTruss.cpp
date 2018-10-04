@@ -13,7 +13,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	CreateData(vctNodes, vctElements);
 
 	MatrixXf mtxK = AssembleMatrix(vctNodes, vctElements);
-	
 
 	// Solve k matrix
 	// Output results
